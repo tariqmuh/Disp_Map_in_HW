@@ -1,0 +1,106 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\tariqmuh\Documents\GitHub\BRAM_Disp_Map
+T_opt
+Z1 V3:2kUk3D[H_2O=0Q]7Rg<0
+Z2 04 9 4 work TestBench fast 0
+Z3 04 4 4 work glbl fast 0
+Z4 =1-0022fb0bc04e-53298891-20a-5d4c0
+Z5 o-quiet -auto_acc_if_foreign -work work -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip +acc
+Z6 n@_opt
+Z7 OL;O;10.1c;51
+Z8 dC:\Users\tariqmuh\Documents\GitHub\BRAM_Disp_Map
+vbram
+Z9 !s100 HVN2AU4B[HZn1NNk<XSiJ3
+Z10 IFZ=41z0K97kg07U<Q52j:0
+Z11 VBfjYz22N8Zi[2_PgGL97=2
+R8
+Z12 w1394591120
+Z13 8ipcore_dir/bram.v
+Z14 Fipcore_dir/bram.v
+L0 39
+Z15 OL;L;10.1c;51
+r1
+31
+Z16 !s90 -reportprogress|300|ipcore_dir/bram.v|
+Z17 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z18 !s108 1395231073.674000
+Z19 !s107 ipcore_dir/bram.v|
+!i10b 1
+!s85 0
+vbram_dm
+Z20 !s100 2GzIRSo:AJ^bVZC7Dh12Y3
+Z21 IThZ_XlYd_=cQS4ozV_NI70
+Z22 VYkK^h8FE5Jm0F6QCz_ZL<2
+R8
+Z23 w1395206377
+Z24 8bram_dm.v
+Z25 Fbram_dm.v
+L0 21
+R15
+r1
+31
+Z26 !s90 -reportprogress|300|bram_dm.v|
+R17
+Z27 !s108 1395231073.980000
+Z28 !s107 bram_dm.v|
+!i10b 1
+!s85 0
+vglbl
+!i10b 1
+Z29 !s100 eVQ[CMQ^moDGX6<b[kHWP1
+Z30 IW9UJ8IoROFALKE?8lbXdT3
+Z31 VM[9mS]S:KA1i4VeCMX35[3
+R8
+Z32 w1341890449
+Z33 8C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v
+Z34 FC:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v
+L0 5
+R15
+r1
+!s85 0
+31
+!s108 1395231074.697000
+!s107 C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v|
+Z35 !s90 -reportprogress|300|C:/Xilinx/14.2/ISE_DS/ISE//verilog/src/glbl.v|
+R17
+vgrayscale_pixel_FIFO
+Z36 !s100 5[WIL[8PZd7879B=01z3L3
+Z37 InXm1:HBCIX8bT7O[TeN0G0
+Z38 Va3ZknMY9b[UdhZSIDd^ne3
+R8
+Z39 w1395195189
+Z40 8ipcore_dir/grayscale_pixel_FIFO.v
+Z41 Fipcore_dir/grayscale_pixel_FIFO.v
+L0 39
+R15
+r1
+31
+Z42 !s90 -reportprogress|300|ipcore_dir/grayscale_pixel_FIFO.v|
+R17
+Z43 ngrayscale_pixel_@f@i@f@o
+Z44 !s108 1395231073.216000
+Z45 !s107 ipcore_dir/grayscale_pixel_FIFO.v|
+!i10b 1
+!s85 0
+vTestBench
+Z46 !s100 :l<UP:Ua6XX3PPh5D_W2Z3
+Z47 IR;Gjl7@MhfUUH^6D_kXOb1
+Z48 VH;VS]59WmQ>4a<zRibM9Z0
+R8
+Z49 w1395230837
+Z50 8TestBench.v
+Z51 FTestBench.v
+L0 25
+R15
+r1
+31
+Z52 !s90 -reportprogress|300|TestBench.v|
+R17
+Z53 n@test@bench
+!i10b 1
+!s85 0
+Z54 !s108 1395231074.316000
+Z55 !s107 TestBench.v|

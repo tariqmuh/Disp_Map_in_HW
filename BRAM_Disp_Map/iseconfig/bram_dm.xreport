@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2014-03-17T21:42:15</DateModified>
+  <DateModified>2014-03-25T09:33:14</DateModified>
   <ModuleName>bram_dm</ModuleName>
-  <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/tariqmuh/Documents/GitHub/BRAM_Disp_Map/iseconfig/bram_dm.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/tariqmuh/Documents/GitHub/BRAM_Disp_Map\</ImplementationReportsDirectory>
+  <SummaryTimeStamp>2014-03-19T00:41:37</SummaryTimeStamp>
+  <SavedFilePath>C:/Users/tariqmuh/Documents/GitHub/Disp_Map_in_HW/BRAM_Disp_Map/iseconfig/bram_dm.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/tariqmuh/Documents/GitHub/Disp_Map_in_HW/BRAM_Disp_Map\</ImplementationReportsDirectory>
   <DateInitialized>2014-03-11T21:01:55</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

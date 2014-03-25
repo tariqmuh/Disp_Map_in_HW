@@ -22,11 +22,124 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="BRAM_Disp_Map.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
-    <file xil_pn:fileType="FILE_LOG" xil_pn:name="ipcore_dir/coregen.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_MODELSIM_CMD" xil_pn:name="TestBench.fdo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="bram_dm.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="bram_dm.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="bram_dm.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="bram_dm.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="bram_dm.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="bram_dm.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="bram_dm.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="bram_dm.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="bram_dm_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="bram_dm_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="bram_dm_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:name="TRAN_SubProjectAbstractToPreProxy">
+    <transform xil_pn:end_ts="1395205366" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1395205366">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1395205366" xil_pn:in_ck="3997489574699423834" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1395205366">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="TestBench.v"/>
+      <outfile xil_pn:name="bram_dm.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1395205366" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="7994251461958826743" xil_pn:start_ts="1395205366">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1395205366" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-3689751875443547979" xil_pn:start_ts="1395205366">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1395205366" xil_pn:in_ck="-1392448137725294641" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-4977608186835215816" xil_pn:start_ts="1395205366">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ipcore_dir/bram.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/bram.v"/>
+      <outfile xil_pn:name="ipcore_dir/grayscale_pixel_FIFO.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/grayscale_pixel_FIFO.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1395205366" xil_pn:in_ck="8559861886064708801" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1395205366">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="TestBench.v"/>
+      <outfile xil_pn:name="bram_dm.v"/>
+      <outfile xil_pn:name="ipcore_dir/bram.v"/>
+      <outfile xil_pn:name="ipcore_dir/grayscale_pixel_FIFO.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1395205390" xil_pn:in_ck="8559861886064708801" xil_pn:name="TRAN_MSimulateBehavioralModel" xil_pn:prop_ck="-3955124671757855930" xil_pn:start_ts="1395205366">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="TestBench.fdo"/>
+    </transform>
+    <transform xil_pn:end_ts="1395204117" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="2420459617317787527" xil_pn:start_ts="1395204117">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1395204117" xil_pn:in_ck="-1392448137725294641" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-4977608186835215816" xil_pn:start_ts="1395204117">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ipcore_dir/bram.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/bram.v"/>
+      <outfile xil_pn:name="ipcore_dir/grayscale_pixel_FIFO.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/grayscale_pixel_FIFO.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1395204084" xil_pn:in_ck="-6856876667492032723" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1395204084">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1395204117" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="7192156425791684937" xil_pn:start_ts="1395204117">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1395204117" xil_pn:in_ck="-6856876667492032723" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="8977612015756273942" xil_pn:start_ts="1395204117">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1395204117" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="4025153125117197826" xil_pn:start_ts="1395204117">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1395205330" xil_pn:in_ck="2572122408822267773" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-1967830406566867193" xil_pn:start_ts="1395205250">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="bram_dm.lso"/>
+      <outfile xil_pn:name="bram_dm.ngc"/>
+      <outfile xil_pn:name="bram_dm.ngr"/>
+      <outfile xil_pn:name="bram_dm.prj"/>
+      <outfile xil_pn:name="bram_dm.stx"/>
+      <outfile xil_pn:name="bram_dm.syr"/>
+      <outfile xil_pn:name="bram_dm.xst"/>
+      <outfile xil_pn:name="bram_dm_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1395205170" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="1262981261089487476" xil_pn:start_ts="1395205170">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
