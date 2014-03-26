@@ -31,7 +31,7 @@ module TestBench;
 	reg [31:0] addra;
 	reg [31:0] dina;
 	reg clkb;
-	reg enb;
+//	reg enb;
 	//reg [31:0] addrb;
 	reg [31:0] dinb;
 	reg go;
@@ -42,6 +42,8 @@ module TestBench;
 	reg [3:0] wea;
 
 	reg [31:0] counter;
+	reg [31:0] read_counter;
+
 
 	// Instantiate the Unit Under Test (UUT)
 	bram_dm uut (
@@ -52,7 +54,7 @@ module TestBench;
 		.addra(addra), 
 		.dina(dina), 
 		.clkb(clkb), 
-		.enb(enb), 
+		//.enb(enb), 
 		//.addrb(addrb), 
 		.dinb(dinb), 
 		.go(go), 
@@ -68,16 +70,16 @@ module TestBench;
 		addra = 0;
 		dina = 0;
 		clkb = 0;
-		enb = 0;
+	//	enb = 0;
 		//addrb = 0;
 		dinb = 0;
 		go = 0;
-		window = 7;
+		window = 3;
 
 		// Wait 100 ns for global reset to finish
 		#100;
 		reset = 0;
-		enb = 1;
+	//	enb = 1;
 		ena = 1;
 	end
 	
@@ -89,21 +91,55 @@ module TestBench;
 	always @(posedge clka)
 	begin
 		if(reset) begin
-			counter <= 0;
-			wea <= 'b0000;
-			addra <= 0;
+			counter <= #1 0;
+			read_counter <= #1 0;
+			wea <= #1 'b0000;
+			addra <= #1 -1;
+			wea <= #2 'b1111;
 		end
 		else begin
-			dina <= counter;
-			counter <= counter + 1;
-			wea <= 'b1111;
-			addra <= addra + 1;
+			dina <= #1 counter;
+			counter <= #1 counter + 1;
+			wea <= #1 15;
+//			wea <= #1 0;
+			addra <= #1 counter;
+			
+			if (addra == 252)
+				dina <= #1 'hDEADBEEF;
 			
 			if (counter == 640 * 7) begin
-				ena <= 0;
-				go <= 1;
+				ena <= #1 0;
+				go <= #1 1;
+				counter <= #1 counter;
 			end
+			
+//			if (counter == 640 * 7) begin
+//				wea <= #1 0;
+//				read_counter <= read_counter + 1;
+//				addra <= #1 read_counter;
+////				addra <= #1 252;
+//				if (read_counter == 640 * 7) begin
+//					ena <= #1 0;
+//					go <= #1 1;
+//					read_counter<= #1 read_counter;
+//				end
+//			end			
 		end
 	end
+	
+bram mybram (
+  .clka(clka), // input clka
+  .ena(ena), // input ena
+  .wea(wea), // input [3 : 0] wea
+  .addra(addra), // input [31 : 0] addra
+  .dina(dina), // input [31 : 0] dina
+  .douta(douta), // output [31 : 0] douta
+  .clkb(clkb), // input clkb
+  .enb(enb), // input enb
+  .web(web), // input [3 : 0] web
+  .addrb(addrb), // input [31 : 0] addrb
+  .dinb(dinb), // input [31 : 0] dinb
+  .doutb(doutb) // output [31 : 0] doutb
+);
 endmodule
 

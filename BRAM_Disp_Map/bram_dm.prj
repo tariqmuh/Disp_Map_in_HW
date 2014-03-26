@@ -1,3 +1,1 @@
-verilog work "ipcore_dir/grayscale_pixel_FIFO.v"
-verilog work "ipcore_dir/bram.v"
 verilog work "bram_dm.v"

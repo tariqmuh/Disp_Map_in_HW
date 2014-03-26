@@ -5,253 +5,112 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="751" delta="old" >"C:\Users\tariqmuh\Documents\GitHub\BRAM_Disp_Map\bram_dm.v" Line 88: Redeclaration of ansi port <arg fmt="%s" index="1">done</arg> is not allowed
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\tariqmuh\Documents\GitHub\Disp_Map_in_HW\BRAM_Disp_Map\bram_dm.v" Line 319: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Users\tariqmuh\Documents\GitHub\BRAM_Disp_Map\ipcore_dir\bram.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">bram</arg>&gt; remains a black box.
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\tariqmuh\Documents\GitHub\Disp_Map_in_HW\BRAM_Disp_Map\bram_dm.v" Line 383: Assignment to <arg fmt="%s" index="1">rst_fifo</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\tariqmuh\Documents\GitHub\BRAM_Disp_Map\bram_dm.v" Line 100: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">wea</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\tariqmuh\Documents\GitHub\Disp_Map_in_HW\BRAM_Disp_Map\bram_dm.v" Line 387: Assignment to <arg fmt="%s" index="1">wr_clk_fifo</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\tariqmuh\Documents\GitHub\BRAM_Disp_Map\bram_dm.v" Line 103: Assignment to <arg fmt="%s" index="1">douta</arg> ignored, since the identifier is never used
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">dout_ref&lt;31:12&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\tariqmuh\Documents\GitHub\BRAM_Disp_Map\bram_dm.v" Line 106: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">web</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">doutb&lt;31:12&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\tariqmuh\Documents\GitHub\BRAM_Disp_Map\bram_dm.v" Line 203: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">saved_state&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\tariqmuh\Documents\GitHub\BRAM_Disp_Map\bram_dm.v" Line 208: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">saved_state&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\tariqmuh\Documents\GitHub\BRAM_Disp_Map\bram_dm.v" Line 212: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">saved_state&lt;2&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\tariqmuh\Documents\GitHub\BRAM_Disp_Map\bram_dm.v" Line 216: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">we_ref</arg>&lt;<arg fmt="%d" index="2">1</arg>:<arg fmt="%d" index="3">4</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">bram_dm</arg>&gt;.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\tariqmuh\Documents\GitHub\BRAM_Disp_Map\bram_dm.v" Line 224: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">web_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\tariqmuh\Documents\GitHub\BRAM_Disp_Map\bram_dm.v" Line 227: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">web_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\tariqmuh\Documents\GitHub\BRAM_Disp_Map\bram_dm.v" Line 236: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">web_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\tariqmuh\Documents\GitHub\BRAM_Disp_Map\bram_dm.v" Line 239: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">web_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\tariqmuh\Documents\GitHub\BRAM_Disp_Map\bram_dm.v" Line 247: Result of <arg fmt="%d" index="1">13</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">12</arg>-bit target.
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">web_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\tariqmuh\Documents\GitHub\BRAM_Disp_Map\bram_dm.v" Line 253: Result of <arg fmt="%d" index="1">13</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">12</arg>-bit target.
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">web_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\tariqmuh\Documents\GitHub\BRAM_Disp_Map\bram_dm.v" Line 256: Result of <arg fmt="%d" index="1">13</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">12</arg>-bit target.
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">web_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"C:\Users\tariqmuh\Documents\GitHub\BRAM_Disp_Map\ipcore_dir\grayscale_pixel_FIFO.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">grayscale_pixel_FIFO</arg>&gt; remains a black box.
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">web_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\tariqmuh\Documents\GitHub\BRAM_Disp_Map\bram_dm.v" Line 285: Assignment to <arg fmt="%s" index="1">dout_fifo</arg> ignored, since the identifier is never used
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">comp_p_col_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\tariqmuh\Documents\GitHub\BRAM_Disp_Map\bram_dm.v" Line 286: Assignment to <arg fmt="%s" index="1">full_fifo</arg> ignored, since the identifier is never used
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">comp_p_col_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\tariqmuh\Documents\GitHub\BRAM_Disp_Map\bram_dm.v" Line 287: Assignment to <arg fmt="%s" index="1">empty_fifo</arg> ignored, since the identifier is never used
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">comp_p_row_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\tariqmuh\Documents\GitHub\BRAM_Disp_Map\bram_dm.v" Line 288: Assignment to <arg fmt="%s" index="1">rd_data_count_fifo</arg> ignored, since the identifier is never used
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">comp_p_row_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\tariqmuh\Documents\GitHub\BRAM_Disp_Map\bram_dm.v" Line 90: Net &lt;<arg fmt="%s" index="1">rd_clk_fifo</arg>&gt; does not have a driver.
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">comp_p_row_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\tariqmuh\Documents\GitHub\BRAM_Disp_Map\bram_dm.v" Line 100: Net &lt;<arg fmt="%s" index="1">wea</arg>&gt; does not have a driver.
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">addr_ref_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">bram_dm</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">18 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;addr_ref_14&gt; &lt;addr_ref_15&gt; &lt;addr_ref_16&gt; &lt;addr_ref_17&gt; &lt;addr_ref_18&gt; &lt;addr_ref_19&gt; &lt;addr_ref_20&gt; &lt;addr_ref_21&gt; &lt;addr_ref_22&gt; &lt;addr_ref_23&gt; &lt;addr_ref_24&gt; &lt;addr_ref_25&gt; &lt;addr_ref_26&gt; &lt;addr_ref_27&gt; &lt;addr_ref_28&gt; &lt;addr_ref_29&gt; &lt;addr_ref_30&gt; &lt;addr_ref_31&gt; </arg>
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\tariqmuh\Documents\GitHub\BRAM_Disp_Map\bram_dm.v" Line 106: Net &lt;<arg fmt="%s" index="1">web</arg>&gt; does not have a driver.
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">start_addr_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">bram_dm</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">18 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;start_addr_14&gt; &lt;start_addr_15&gt; &lt;start_addr_16&gt; &lt;start_addr_17&gt; &lt;start_addr_18&gt; &lt;start_addr_19&gt; &lt;start_addr_20&gt; &lt;start_addr_21&gt; &lt;start_addr_22&gt; &lt;start_addr_23&gt; &lt;start_addr_24&gt; &lt;start_addr_25&gt; &lt;start_addr_26&gt; &lt;start_addr_27&gt; &lt;start_addr_28&gt; &lt;start_addr_29&gt; &lt;start_addr_30&gt; &lt;start_addr_31&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\tariqmuh\Documents\GitHub\BRAM_Disp_Map\bram_dm.v</arg>&quot; line <arg fmt="%s" index="2">97</arg>: Output port &lt;<arg fmt="%s" index="3">douta</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">mybram</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">grayscale_pixels_20</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">bram_dm</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;grayscale_pixels_26&gt; &lt;grayscale_pixels_31&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\tariqmuh\Documents\GitHub\BRAM_Disp_Map\bram_dm.v</arg>&quot; line <arg fmt="%s" index="2">278</arg>: Output port &lt;<arg fmt="%s" index="3">dout</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">grascale_fifo</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">grayscale_pixels_16</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">bram_dm</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;grayscale_pixels_22&gt; &lt;grayscale_pixels_27&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\tariqmuh\Documents\GitHub\BRAM_Disp_Map\bram_dm.v</arg>&quot; line <arg fmt="%s" index="2">278</arg>: Output port &lt;<arg fmt="%s" index="3">rd_data_count</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">grascale_fifo</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">grayscale_pixels_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">bram_dm</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;grayscale_pixels_23&gt; &lt;grayscale_pixels_28&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\tariqmuh\Documents\GitHub\BRAM_Disp_Map\bram_dm.v</arg>&quot; line <arg fmt="%s" index="2">278</arg>: Output port &lt;<arg fmt="%s" index="3">full</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">grascale_fifo</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">grayscale_pixels_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">bram_dm</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;grayscale_pixels_24&gt; &lt;grayscale_pixels_29&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\tariqmuh\Documents\GitHub\BRAM_Disp_Map\bram_dm.v</arg>&quot; line <arg fmt="%s" index="2">278</arg>: Output port &lt;<arg fmt="%s" index="3">empty</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">grascale_fifo</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">grayscale_pixels_19</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">bram_dm</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;grayscale_pixels_25&gt; &lt;grayscale_pixels_30&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="2999" delta="new" >Signal &apos;<arg fmt="%s" index="1">ref_window</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">bram_dm</arg>&apos;, is tied to its initial value.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">grayscale_pixels_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">bram_dm</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;grayscale_pixels_6&gt; &lt;grayscale_pixels_11&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">rd_clk_fifo</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">grayscale_pixels_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">bram_dm</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;grayscale_pixels_7&gt; &lt;grayscale_pixels_12&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">rd_en_fifo</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">grayscale_pixels_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">bram_dm</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;grayscale_pixels_8&gt; &lt;grayscale_pixels_13&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">wea</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">grayscale_pixels_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">bram_dm</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;grayscale_pixels_9&gt; &lt;grayscale_pixels_14&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">web</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">grayscale_pixels_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">bram_dm</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;grayscale_pixels_10&gt; &lt;grayscale_pixels_15&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="3035" delta="new" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">ref_window</arg>&gt;, simulation mismatch.
+<msg type="info" file="Xst" num="3203" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">grayscale_fifo_wr_sel</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">bram_dm</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;comp_p_col_0&gt; </arg>
 </msg>
 
-<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_ref_window</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
-</msg>
-
-<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">win_col_index_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">win_col_index_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">win_col_index_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">win_col_index_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">win_col_index_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">win_col_index_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">comp_p_row_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">comp_p_col_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">comp_p_col_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">comp_p_col_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">comp_p_col_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">comp_p_col_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">comp_p_col_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">comp_p_col_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">comp_p_col_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">comp_p_col_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">comp_p_col_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">comp_p_col_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">comp_p_col_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">comp_p_row_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">comp_p_row_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">comp_p_row_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">comp_p_row_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">comp_p_row_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">comp_p_row_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">comp_p_row_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">comp_p_row_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">comp_p_row_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">comp_p_row_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">comp_p_row_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">bram_dm</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">grascale_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_1_1&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">grascale_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_2_1&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">grascale_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_fb_i&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">grascale_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_3_1&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">grascale_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_5_1&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">grascale_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">grascale_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1&gt; &lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">grascale_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">grascale_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_1_1&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">grascale_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_2_1&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">grascale_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_fb_i&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">grascale_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_3_1&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">grascale_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_5_1&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">grascale_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">grascale_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1&gt; &lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">grascale_fifo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 </msg>
 
 </messages>

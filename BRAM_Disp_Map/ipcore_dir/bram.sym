@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <symbol version="7" name="bram">
     <symboltype>BLOCK</symboltype>
-    <timestamp>2014-3-12T2:25:28</timestamp>
+    <timestamp>2014-3-26T4:10:53</timestamp>
     <pin polarity="Input" x="0" y="80" name="addra[31:0]" />
     <pin polarity="Input" x="0" y="112" name="dina[31:0]" />
     <pin polarity="Input" x="0" y="144" name="ena" />

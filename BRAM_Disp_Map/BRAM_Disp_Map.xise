@@ -16,22 +16,22 @@
 
   <files>
     <file xil_pn:name="bram_dm.v" xil_pn:type="FILE_VERILOG">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="3"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="3"/>
-    </file>
-    <file xil_pn:name="ipcore_dir/bram.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="2"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="2"/>
-    </file>
-    <file xil_pn:name="ipcore_dir/grayscale_pixel_FIFO.xco" xil_pn:type="FILE_COREGEN">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="1"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="1"/>
     </file>
-    <file xil_pn:name="TestBench.v" xil_pn:type="FILE_VERILOG">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="4"/>
-      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="19"/>
-      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="19"/>
-      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="19"/>
+    <file xil_pn:name="ipcore_dir/bram.xco" xil_pn:type="FILE_COREGEN">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="1"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+    </file>
+    <file xil_pn:name="ipcore_dir/grayscale_pixel_FIFO.xco" xil_pn:type="FILE_COREGEN">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+    </file>
+    <file xil_pn:name="TestBench_v2.v" xil_pn:type="FILE_VERILOG">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="3"/>
+      <association xil_pn:name="PostMapSimulation" xil_pn:seqID="51"/>
+      <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="51"/>
+      <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="51"/>
     </file>
     <file xil_pn:name="ipcore_dir/bram.xise" xil_pn:type="FILE_COREGENISE">
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
@@ -42,6 +42,7 @@
   </files>
 
   <properties>
+    <property xil_pn:name="Compiled Library Directory" xil_pn:value="$XILINX/&lt;language>/&lt;simulator>" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Device" xil_pn:value="xc6slx45" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Device Family" xil_pn:value="Spartan6" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Implementation Top" xil_pn:value="Module|bram_dm" xil_pn:valueState="non-default"/>
@@ -50,8 +51,9 @@
     <property xil_pn:name="Package" xil_pn:value="csg324" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Preferred Language" xil_pn:value="Verilog" xil_pn:valueState="default"/>
     <property xil_pn:name="Property Specification in Project File" xil_pn:value="Store non-default values only" xil_pn:valueState="non-default"/>
-    <property xil_pn:name="Selected Module Instance Name" xil_pn:value="/TestBench/uut/mybram" xil_pn:valueState="non-default"/>
-    <property xil_pn:name="Selected Simulation Root Source Node Behavioral" xil_pn:value="work.bram" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Selected Module Instance Name" xil_pn:value="/TestBench_v2" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Selected Simulation Root Source Node Behavioral" xil_pn:value="work.TestBench_v2" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Simulation Run Time Modelsim" xil_pn:value="10us" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Simulator" xil_pn:value="Modelsim-SE Verilog" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Speed Grade" xil_pn:value="-3" xil_pn:valueState="default"/>
     <property xil_pn:name="Synthesis Tool" xil_pn:value="XST (VHDL/Verilog)" xil_pn:valueState="default"/>
@@ -60,7 +62,7 @@
     <!--                                                                                  -->
     <!-- The following properties are for internal use only. These should not be modified.-->
     <!--                                                                                  -->
-    <property xil_pn:name="PROP_BehavioralSimTop" xil_pn:value="Module|TestBench" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="PROP_BehavioralSimTop" xil_pn:value="Module|TestBench_v2" xil_pn:valueState="non-default"/>
     <property xil_pn:name="PROP_DesignName" xil_pn:value="BRAM_Disp_Map" xil_pn:valueState="non-default"/>
     <property xil_pn:name="PROP_DevFamilyPMName" xil_pn:value="spartan6" xil_pn:valueState="default"/>
     <property xil_pn:name="PROP_intProjectCreationTimestamp" xil_pn:value="2014-03-11T20:59:25" xil_pn:valueState="non-default"/>
