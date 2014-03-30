@@ -53,32 +53,32 @@ module bram(
 
 input clka;
 input ena;
-input [3 : 0] wea;
-input [31 : 0] addra;
-input [31 : 0] dina;
-output [31 : 0] douta;
+input [0 : 0] wea;
+input [12 : 0] addra;
+input [15 : 0] dina;
+output [15 : 0] douta;
 input clkb;
 input enb;
-input [3 : 0] web;
-input [31 : 0] addrb;
-input [31 : 0] dinb;
-output [31 : 0] doutb;
+input [0 : 0] web;
+input [12 : 0] addrb;
+input [15 : 0] dinb;
+output [15 : 0] doutb;
 
 // synthesis translate_off
 
   BLK_MEM_GEN_V7_2 #(
-    .C_ADDRA_WIDTH(32),
-    .C_ADDRB_WIDTH(32),
+    .C_ADDRA_WIDTH(13),
+    .C_ADDRB_WIDTH(13),
     .C_ALGORITHM(1),
     .C_AXI_ID_WIDTH(4),
     .C_AXI_SLAVE_TYPE(0),
     .C_AXI_TYPE(1),
-    .C_BYTE_SIZE(8),
-    .C_COMMON_CLK(1),
+    .C_BYTE_SIZE(9),
+    .C_COMMON_CLK(0),
     .C_DEFAULT_DATA("0"),
     .C_DISABLE_WARN_BHV_COLL(0),
     .C_DISABLE_WARN_BHV_RANGE(0),
-    .C_ENABLE_32BIT_ADDRESS(1),
+    .C_ENABLE_32BIT_ADDRESS(0),
     .C_FAMILY("spartan6"),
     .C_HAS_AXI_ID(0),
     .C_HAS_ENA(1),
@@ -102,29 +102,29 @@ output [31 : 0] doutb;
     .C_MEM_TYPE(2),
     .C_MUX_PIPELINE_STAGES(0),
     .C_PRIM_TYPE(1),
-    .C_READ_DEPTH_A(4480),
-    .C_READ_DEPTH_B(4480),
-    .C_READ_WIDTH_A(32),
-    .C_READ_WIDTH_B(32),
+    .C_READ_DEPTH_A(5120),
+    .C_READ_DEPTH_B(5120),
+    .C_READ_WIDTH_A(16),
+    .C_READ_WIDTH_B(16),
     .C_RST_PRIORITY_A("CE"),
     .C_RST_PRIORITY_B("CE"),
     .C_RST_TYPE("SYNC"),
     .C_RSTRAM_A(0),
     .C_RSTRAM_B(0),
     .C_SIM_COLLISION_CHECK("ALL"),
-    .C_USE_BYTE_WEA(1),
-    .C_USE_BYTE_WEB(1),
+    .C_USE_BYTE_WEA(0),
+    .C_USE_BYTE_WEB(0),
     .C_USE_DEFAULT_DATA(1),
     .C_USE_ECC(0),
     .C_USE_SOFTECC(0),
-    .C_WEA_WIDTH(4),
-    .C_WEB_WIDTH(4),
-    .C_WRITE_DEPTH_A(4480),
-    .C_WRITE_DEPTH_B(4480),
+    .C_WEA_WIDTH(1),
+    .C_WEB_WIDTH(1),
+    .C_WRITE_DEPTH_A(5120),
+    .C_WRITE_DEPTH_B(5120),
     .C_WRITE_MODE_A("WRITE_FIRST"),
     .C_WRITE_MODE_B("WRITE_FIRST"),
-    .C_WRITE_WIDTH_A(32),
-    .C_WRITE_WIDTH_B(32),
+    .C_WRITE_WIDTH_A(16),
+    .C_WRITE_WIDTH_B(16),
     .C_XDEVICEFAMILY("spartan6")
   )
   inst (

@@ -41,6 +41,8 @@
 *     between this core and the Dual Port Block Memory and Single Port         *
 *     Block Memory LogiCOREs, please consult the data sheet.                   *
 *******************************************************************************/
+// Synthesized Netlist Wrapper
+// This file is provided to wrap around the synthesized netlist (if appropriate)
 
 // Interfaces:
 //    CLK.ACLK
@@ -56,29 +58,37 @@
 //    BRAM_PORTB
 //        BRAM_PORTB
 
-// The following must be inserted into your Verilog file for this
-// core to be instantiated. Change the instance name and port connections
-// (in parentheses) to your own signal names.
-
-//----------- Begin Cut here for INSTANTIATION Template ---// INST_TAG
-bram your_instance_name (
-  .clka(clka), // input clka
-  .ena(ena), // input ena
-  .wea(wea), // input [0 : 0] wea
-  .addra(addra), // input [12 : 0] addra
-  .dina(dina), // input [15 : 0] dina
-  .douta(douta), // output [15 : 0] douta
-  .clkb(clkb), // input clkb
-  .enb(enb), // input enb
-  .web(web), // input [0 : 0] web
-  .addrb(addrb), // input [12 : 0] addrb
-  .dinb(dinb), // input [15 : 0] dinb
-  .doutb(doutb) // output [15 : 0] doutb
+module bram (
+  clka,
+  ena,
+  wea,
+  addra,
+  dina,
+  douta,
+  clkb,
+  enb,
+  web,
+  addrb,
+  dinb,
+  doutb
 );
-// INST_TAG_END ------ End INSTANTIATION Template ---------
 
-// You must compile the wrapper file bram.v when simulating
-// the core, bram. When compiling the wrapper file, be sure to
-// reference the XilinxCoreLib Verilog simulation library. For detailed
-// instructions, please refer to the "CORE Generator Help".
+  input clka;
+  input ena;
+  input [0 : 0] wea;
+  input [12 : 0] addra;
+  input [15 : 0] dina;
+  output [15 : 0] douta;
+  input clkb;
+  input enb;
+  input [0 : 0] web;
+  input [12 : 0] addrb;
+  input [15 : 0] dinb;
+  output [15 : 0] doutb;
+
+  // WARNING: This file provides a module declaration only, it does not support
+  //          direct instantiation. Please use an instantiation template (VEO) to
+  //          instantiate the IP within a design.
+
+endmodule
 

@@ -17,150 +17,20 @@
 # Top level modules:
 # 	bram
 # Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module bram_dm
-# ** Error: bram_dm.v(68): 'addrb' already declared in this scope (bram_dm).
-# ** Error: bram_dm.v(70): 'doutb' already declared in this scope (bram_dm).
-# ** Error: bram_dm.v(103): 'web' already declared in this scope (bram_dm).
-# ** Error: bram_dm.v(105): 'enb' already declared in this scope (bram_dm).
-# ** Error: bram_dm.v(108): 'din_fifo' already declared in this scope (bram_dm).
-# ** Error: C:/modeltech64_10.1c/win64/vlog failed.
-# Error in macro ./TestBench_v2.fdo line 24
-# C:/modeltech64_10.1c/win64/vlog failed.
-#     while executing
-# "vlog  "bram_dm.v""
-do {TestBench_v2.fdo}
-# ** Warning: (vlib-34) Library already exists at "work".
-# 
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module bram
+# -- Compiling module Disp_Map_Calc
 # 
 # Top level modules:
-# 	bram
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module bram_dm
-# ** Error: bram_dm.v(68): 'addrb' already declared in this scope (bram_dm).
-# ** Error: bram_dm.v(70): 'doutb' already declared in this scope (bram_dm).
-# ** Error: bram_dm.v(103): 'web' already declared in this scope (bram_dm).
-# ** Error: bram_dm.v(105): 'enb' already declared in this scope (bram_dm).
-# ** Error: C:/modeltech64_10.1c/win64/vlog failed.
-# Error in macro ./TestBench_v2.fdo line 24
-# C:/modeltech64_10.1c/win64/vlog failed.
-#     while executing
-# "vlog  "bram_dm.v""
-do {TestBench_v2.fdo}
-# ** Warning: (vlib-34) Library already exists at "work".
-# 
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module bram
-# 
-# Top level modules:
-# 	bram
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module bram_dm
-# ** Error: bram_dm.v(103): 'web' already declared in this scope (bram_dm).
-# ** Error: bram_dm.v(105): 'enb' already declared in this scope (bram_dm).
-# ** Error: C:/modeltech64_10.1c/win64/vlog failed.
-# Error in macro ./TestBench_v2.fdo line 24
-# C:/modeltech64_10.1c/win64/vlog failed.
-#     while executing
-# "vlog  "bram_dm.v""
-do {TestBench_v2.fdo}
-# ** Warning: (vlib-34) Library already exists at "work".
-# 
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module bram
-# 
-# Top level modules:
-# 	bram
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module bram_dm
-# ** Error: bram_dm.v(364): Register is illegal in left-hand side of continuous assignment
-# ** Error: bram_dm.v(368): Register is illegal in left-hand side of continuous assignment
-# ** Error: C:/modeltech64_10.1c/win64/vlog failed.
-# Error in macro ./TestBench_v2.fdo line 24
-# C:/modeltech64_10.1c/win64/vlog failed.
-#     while executing
-# "vlog  "bram_dm.v""
-do {TestBench_v2.fdo}
-# ** Warning: (vlib-34) Library already exists at "work".
-# 
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module bram
-# 
-# Top level modules:
-# 	bram
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module bram_dm
-# 
-# Top level modules:
-# 	bram_dm
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module TestBench_v2
-# ** Error: TestBench_v2.v(72): (vlog-2730) Undefined variable: 'ena'.
-# 
-# ** Error: TestBench_v2.v(97): (vlog-2730) Undefined variable: 'counter'.
-# 
-# ** Error: TestBench_v2.v(98): (vlog-2730) Undefined variable: 'read_counter'.
-# 
-# ** Error: C:/modeltech64_10.1c/win64/vlog failed.
-# Error in macro ./TestBench_v2.fdo line 25
-# C:/modeltech64_10.1c/win64/vlog failed.
-#     while executing
-# "vlog  "TestBench_v2.v""
-do {TestBench_v2.fdo}
-# ** Warning: (vlib-34) Library already exists at "work".
-# 
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module bram
-# 
-# Top level modules:
-# 	bram
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module bram_dm
-# 
-# Top level modules:
-# 	bram_dm
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module TestBench_v2
-# ** Error: TestBench_v2.v(75): (vlog-2110) Illegal reference to net "clka".
-# 
-# ** Error: TestBench_v2.v(77): (vlog-2110) Illegal reference to net "addra".
-# 
-# ** Error: TestBench_v2.v(95): (vlog-2110) Illegal reference to net "clka".
-# 
-# ** Error: TestBench_v2.v(103): (vlog-2110) Illegal reference to net "wea".
-# 
-# ** Error: TestBench_v2.v(104): (vlog-2110) Illegal reference to net "addra".
-# 
-# ** Error: TestBench_v2.v(105): (vlog-2110) Illegal reference to net "wea".
-# 
-# ** Error: TestBench_v2.v(110): (vlog-2110) Illegal reference to net "wea".
-# 
-# ** Error: TestBench_v2.v(112): (vlog-2110) Illegal reference to net "addra".
-# 
-# ** Error: C:/modeltech64_10.1c/win64/vlog failed.
-# Error in macro ./TestBench_v2.fdo line 25
-# C:/modeltech64_10.1c/win64/vlog failed.
-#     while executing
-# "vlog  "TestBench_v2.v""
-do {TestBench_v2.fdo}
-# ** Warning: (vlib-34) Library already exists at "work".
-# 
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module bram
-# 
-# Top level modules:
-# 	bram
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module bram_dm
-# 
-# Top level modules:
-# 	bram_dm
+# 	Disp_Map_Calc
 # Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
 # -- Compiling module TestBench_v2
 # 
 # Top level modules:
 # 	TestBench_v2
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module bram
+# 
+# Top level modules:
+# 	bram
 # Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
 # -- Compiling module glbl
 # 
@@ -169,581 +39,101 @@ do {TestBench_v2.fdo}
 # vsim -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip -lib work -voptargs=\"+acc\" -t 1ps work.TestBench_v2 glbl 
 # ** Note: (vsim-3812) Design is being optimized...
 # 
-# ** Warning: TestBench_v2.v(70): (vopt-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 16, found 12.
-# 
-# ** Warning: TestBench_v2.v(70): (vopt-2718) [TFMPC] - Missing connection for port 'dout_ref'.
-# 
-# ** Warning: TestBench_v2.v(70): (vopt-2718) [TFMPC] - Missing connection for port 'addr_ref'.
-# 
-# ** Warning: TestBench_v2.v(70): (vopt-2718) [TFMPC] - Missing connection for port 'we_ref'.
-# 
-# ** Warning: TestBench_v2.v(70): (vopt-2718) [TFMPC] - Missing connection for port 'en_ref'.
-# 
-# Loading work.TestBench_v2(fast)
-# Loading work.bram_dm(fast)
-# Loading work.bram(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_mem_module(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_output_stage(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_softecc_output_reg_stage(fast)
-# Loading work.glbl(fast)
-# ** Warning: (vsim-3015) TestBench_v2.v(150): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'ena'. The port definition is at: ipcore_dir/bram.v(41).
-# 
-#         Region: /TestBench_v2/mybram
-# ** Error: (vsim-3053) TestBench_v2.v(150): Illegal output or inout port connection for "port 'douta'".
-# 
-#         Region: /TestBench_v2/mybram
-# ** Error: (vsim-3053) TestBench_v2.v(150): Illegal output or inout port connection for "port 'doutb'".
-# 
-#         Region: /TestBench_v2/mybram
+# ** Error: TestBench_v2.v(100): A parameter override is not allowed for localparam 'window'.
+# Optimization failed
 # Error loading design
 # Error: Error loading design 
 #        Pausing macro execution 
-# MACRO ./TestBench_v2.fdo PAUSED at line 30
-do {TestBench_v2.fdo}
-# ** Warning: (vlib-34) Library already exists at "work".
-# 
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module bram
-# 
-# Top level modules:
-# 	bram
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module bram_dm
-# 
-# Top level modules:
-# 	bram_dm
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module TestBench_v2
-# 
-# Top level modules:
-# 	TestBench_v2
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module glbl
-# 
-# Top level modules:
-# 	glbl
-# vsim -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip -lib work -voptargs=\"+acc\" -t 1ps work.TestBench_v2 glbl 
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# 
-# ** Warning: TestBench_v2.v(70): (vopt-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 16, found 12.
-# 
-# ** Warning: TestBench_v2.v(70): (vopt-2718) [TFMPC] - Missing connection for port 'dout_ref'.
-# 
-# ** Warning: TestBench_v2.v(70): (vopt-2718) [TFMPC] - Missing connection for port 'addr_ref'.
-# 
-# ** Warning: TestBench_v2.v(70): (vopt-2718) [TFMPC] - Missing connection for port 'we_ref'.
-# 
-# ** Warning: TestBench_v2.v(70): (vopt-2718) [TFMPC] - Missing connection for port 'en_ref'.
-# 
-# Loading work.TestBench_v2(fast)
-# Loading work.bram_dm(fast)
-# Loading work.bram(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_mem_module(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_output_stage(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_softecc_output_reg_stage(fast)
-# Loading work.glbl(fast)
-# .main_pane.wave.interior.cs.body.pw.wf
-# .main_pane.structure.interior.cs.body.struct
-# .main_pane.objects.interior.cs.body.tree
-#  Block Memory Generator CORE Generator module loading initial data...
-#  Block Memory Generator data initialization complete.
-# Block Memory Generator CORE Generator module TestBench_v2.mybram.inst.native_mem_mapped_module.blk_mem_gen_v7_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
-# blk_mem_gen_v7_2 WARNING: Address 1fff is outside range for A Write
-# blk_mem_gen_v7_2 WARNING: Address 1fff is outside range for A Read
-do quick_run.do
-# Loading work.TestBench_v2(fast)
-# Loading work.bram_dm(fast)
-# Loading work.bram(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_mem_module(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_output_stage(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_softecc_output_reg_stage(fast)
-# Loading work.glbl(fast)
-# ** Error: (vish-4014) No objects found matching '/TestBench/reset'.
-# Executing ONERROR command at macro ./wave.do line 3
-# ** Error: (vish-4014) No objects found matching '/TestBench/clka'.
-# Executing ONERROR command at macro ./wave.do line 5
-# ** Error: (vish-4014) No objects found matching '/TestBench/ena'.
-# Executing ONERROR command at macro ./wave.do line 7
-# ** Error: (vish-4014) No objects found matching '/TestBench/addra'.
-# Executing ONERROR command at macro ./wave.do line 9
-# ** Error: (vish-4014) No objects found matching '/TestBench/dina'.
-# Executing ONERROR command at macro ./wave.do line 11
-# ** Error: (vish-4014) No objects found matching '/TestBench/clkb'.
-# Executing ONERROR command at macro ./wave.do line 13
-# ** Error: (vish-4014) No objects found matching '/TestBench/dinb'.
-# Executing ONERROR command at macro ./wave.do line 15
-# ** Error: (vish-4014) No objects found matching '/TestBench/go'.
-# Executing ONERROR command at macro ./wave.do line 17
-# ** Error: (vish-4014) No objects found matching '/TestBench/window'.
-# Executing ONERROR command at macro ./wave.do line 19
-# ** Error: (vish-4014) No objects found matching '/TestBench/done'.
-# Executing ONERROR command at macro ./wave.do line 21
-# ** Error: (vish-4014) No objects found matching '/TestBench/wea'.
-# Executing ONERROR command at macro ./wave.do line 23
-# ** Error: (vish-4014) No objects found matching '/TestBench/counter'.
-# Executing ONERROR command at macro ./wave.do line 25
-# ** Error: (vish-4014) No objects found matching '/TestBench/read_counter'.
-# Executing ONERROR command at macro ./wave.do line 27
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/mybram/clka'.
-# Executing ONERROR command at macro ./wave.do line 33
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/mybram/ena'.
-# Executing ONERROR command at macro ./wave.do line 35
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/mybram/wea'.
-# Executing ONERROR command at macro ./wave.do line 37
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/mybram/addra'.
-# Executing ONERROR command at macro ./wave.do line 39
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/mybram/dina'.
-# Executing ONERROR command at macro ./wave.do line 41
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/mybram/douta'.
-# Executing ONERROR command at macro ./wave.do line 43
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/mybram/clkb'.
-# Executing ONERROR command at macro ./wave.do line 45
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/mybram/enb'.
-# Executing ONERROR command at macro ./wave.do line 47
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/mybram/web'.
-# Executing ONERROR command at macro ./wave.do line 49
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/mybram/addrb'.
-# Executing ONERROR command at macro ./wave.do line 51
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/mybram/dinb'.
-# Executing ONERROR command at macro ./wave.do line 53
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/mybram/doutb'.
-# Executing ONERROR command at macro ./wave.do line 55
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/reset'.
-# Executing ONERROR command at macro ./wave.do line 59
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/clkb'.
-# Executing ONERROR command at macro ./wave.do line 61
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/dinb'.
-# Executing ONERROR command at macro ./wave.do line 63
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/go'.
-# Executing ONERROR command at macro ./wave.do line 65
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/window'.
-# Executing ONERROR command at macro ./wave.do line 67
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/done'.
-# Executing ONERROR command at macro ./wave.do line 69
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/window_half'.
-# Executing ONERROR command at macro ./wave.do line 71
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/pixels_in_window'.
-# Executing ONERROR command at macro ./wave.do line 73
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/next_state'.
-# Executing ONERROR command at macro ./wave.do line 75
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/start_addr'.
-# Executing ONERROR command at macro ./wave.do line 77
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/enb'.
-# Executing ONERROR command at macro ./wave.do line 79
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/comp_p_row'.
-# Executing ONERROR command at macro ./wave.do line 81
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/comp_p_col'.
-# Executing ONERROR command at macro ./wave.do line 83
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/curr_state'.
-# Executing ONERROR command at macro ./wave.do line 85
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/addrb'.
-# Executing ONERROR command at macro ./wave.do line 87
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/doutb'.
-# Executing ONERROR command at macro ./wave.do line 89
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/address_counter'.
-# Executing ONERROR command at macro ./wave.do line 91
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/address_win_count'.
-# Executing ONERROR command at macro ./wave.do line 93
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/counter'.
-# Executing ONERROR command at macro ./wave.do line 95
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/win_row_index'.
-# Executing ONERROR command at macro ./wave.do line 97
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/win_col_index'.
-# Executing ONERROR command at macro ./wave.do line 99
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/win_count'.
-# Executing ONERROR command at macro ./wave.do line 101
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/total_num_of_pix'.
-# Executing ONERROR command at macro ./wave.do line 103
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/window_sum'.
-# Executing ONERROR command at macro ./wave.do line 105
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/lowest_disp'.
-# Executing ONERROR command at macro ./wave.do line 107
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/lowest_disp_index'.
-# Executing ONERROR command at macro ./wave.do line 109
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/wr_en_fifo'.
-# Executing ONERROR command at macro ./wave.do line 111
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/grayscale_fifo_wr_sel'.
-# Executing ONERROR command at macro ./wave.do line 113
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/grayscale_pixels'.
-# Executing ONERROR command at macro ./wave.do line 115
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/finished_pixel'.
-# Executing ONERROR command at macro ./wave.do line 117
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/web'.
-# Executing ONERROR command at macro ./wave.do line 119
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/rst_fifo'.
-# Executing ONERROR command at macro ./wave.do line 121
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/wr_clk_fifo'.
-# Executing ONERROR command at macro ./wave.do line 123
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/rd_clk_fifo'.
-# Executing ONERROR command at macro ./wave.do line 125
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/rd_en_fifo'.
-# Executing ONERROR command at macro ./wave.do line 127
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/full_fifo'.
-# Executing ONERROR command at macro ./wave.do line 129
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/empty_fifo'.
-# Executing ONERROR command at macro ./wave.do line 131
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/din_fifo'.
-# Executing ONERROR command at macro ./wave.do line 133
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/dout_fifo'.
-# Executing ONERROR command at macro ./wave.do line 135
-# ** Error: (vish-4014) No objects found matching '/TestBench/uut/rd_data_count_fifo'.
-# Executing ONERROR command at macro ./wave.do line 137
-#  Block Memory Generator CORE Generator module loading initial data...
-#  Block Memory Generator data initialization complete.
-# Block Memory Generator CORE Generator module TestBench_v2.mybram.inst.native_mem_mapped_module.blk_mem_gen_v7_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
-# blk_mem_gen_v7_2 WARNING: Address 1fff is outside range for A Write
-# blk_mem_gen_v7_2 WARNING: Address 1fff is outside range for A Read
-do quick_run.do
-# Loading work.TestBench_v2(fast)
-# Loading work.bram_dm(fast)
-# Loading work.bram(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_mem_module(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_output_stage(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_softecc_output_reg_stage(fast)
-# Loading work.glbl(fast)
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/mybram/clka'.
-# Executing ONERROR command at macro ./wave.do line 19
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/mybram/ena'.
-# Executing ONERROR command at macro ./wave.do line 21
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/mybram/wea'.
-# Executing ONERROR command at macro ./wave.do line 23
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/mybram/addra'.
-# Executing ONERROR command at macro ./wave.do line 25
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/mybram/dina'.
-# Executing ONERROR command at macro ./wave.do line 27
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/mybram/douta'.
-# Executing ONERROR command at macro ./wave.do line 29
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/mybram/clkb'.
-# Executing ONERROR command at macro ./wave.do line 31
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/mybram/enb'.
-# Executing ONERROR command at macro ./wave.do line 33
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/mybram/web'.
-# Executing ONERROR command at macro ./wave.do line 35
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/mybram/addrb'.
-# Executing ONERROR command at macro ./wave.do line 37
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/mybram/dinb'.
-# Executing ONERROR command at macro ./wave.do line 39
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/mybram/doutb'.
-# Executing ONERROR command at macro ./wave.do line 41
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/dinb'.
-# Executing ONERROR command at macro ./wave.do line 47
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/rd_clk_fifo'.
-# Executing ONERROR command at macro ./wave.do line 78
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/rd_en_fifo'.
-# Executing ONERROR command at macro ./wave.do line 79
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/full_fifo'.
-# Executing ONERROR command at macro ./wave.do line 81
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/empty_fifo'.
-# Executing ONERROR command at macro ./wave.do line 83
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/dout_fifo'.
-# Executing ONERROR command at macro ./wave.do line 86
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/rd_data_count_fifo'.
-# Executing ONERROR command at macro ./wave.do line 87
-#  Block Memory Generator CORE Generator module loading initial data...
-#  Block Memory Generator data initialization complete.
-# Block Memory Generator CORE Generator module TestBench_v2.mybram.inst.native_mem_mapped_module.blk_mem_gen_v7_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
-# blk_mem_gen_v7_2 WARNING: Address 1fff is outside range for A Write
-# blk_mem_gen_v7_2 WARNING: Address 1fff is outside range for A Read
-add wave -position 10  sim:/TestBench_v2/uut/busy
-add wave -position 10  sim:/TestBench_v2/uut/busy
-do quick_run.do
-# Loading work.TestBench_v2(fast)
-# Loading work.bram_dm(fast)
-# Loading work.bram(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_mem_module(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_output_stage(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_softecc_output_reg_stage(fast)
-# Loading work.glbl(fast)
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/mybram/clka'.
-# Executing ONERROR command at macro ./wave.do line 19
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/mybram/ena'.
-# Executing ONERROR command at macro ./wave.do line 21
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/mybram/wea'.
-# Executing ONERROR command at macro ./wave.do line 23
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/mybram/addra'.
-# Executing ONERROR command at macro ./wave.do line 25
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/mybram/dina'.
-# Executing ONERROR command at macro ./wave.do line 27
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/mybram/douta'.
-# Executing ONERROR command at macro ./wave.do line 29
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/mybram/clkb'.
-# Executing ONERROR command at macro ./wave.do line 31
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/mybram/enb'.
-# Executing ONERROR command at macro ./wave.do line 33
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/mybram/web'.
-# Executing ONERROR command at macro ./wave.do line 35
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/mybram/addrb'.
-# Executing ONERROR command at macro ./wave.do line 37
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/mybram/dinb'.
-# Executing ONERROR command at macro ./wave.do line 39
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/mybram/doutb'.
-# Executing ONERROR command at macro ./wave.do line 41
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/dinb'.
-# Executing ONERROR command at macro ./wave.do line 47
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/rd_clk_fifo'.
-# Executing ONERROR command at macro ./wave.do line 78
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/rd_en_fifo'.
-# Executing ONERROR command at macro ./wave.do line 79
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/full_fifo'.
-# Executing ONERROR command at macro ./wave.do line 81
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/empty_fifo'.
-# Executing ONERROR command at macro ./wave.do line 83
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/dout_fifo'.
-# Executing ONERROR command at macro ./wave.do line 86
-# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/rd_data_count_fifo'.
-# Executing ONERROR command at macro ./wave.do line 87
-#  Block Memory Generator CORE Generator module loading initial data...
-#  Block Memory Generator data initialization complete.
-# Block Memory Generator CORE Generator module TestBench_v2.mybram.inst.native_mem_mapped_module.blk_mem_gen_v7_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
-# blk_mem_gen_v7_2 WARNING: Address 1fff is outside range for A Write
-# blk_mem_gen_v7_2 WARNING: Address 1fff is outside range for A Read
-add wave -position 10  sim:/TestBench_v2/uut/busy
-write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/tariqmuh/Documents/GitHub/Disp_Map_in_HW/BRAM_Disp_Map/wave.do
-do quick_run.do
-# Loading work.TestBench_v2(fast)
-# Loading work.bram_dm(fast)
-# Loading work.bram(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_mem_module(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_output_stage(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_softecc_output_reg_stage(fast)
-# Loading work.glbl(fast)
-#  Block Memory Generator CORE Generator module loading initial data...
-#  Block Memory Generator data initialization complete.
-# Block Memory Generator CORE Generator module TestBench_v2.mybram.inst.native_mem_mapped_module.blk_mem_gen_v7_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
-# blk_mem_gen_v7_2 WARNING: Address 1fff is outside range for A Write
-# blk_mem_gen_v7_2 WARNING: Address 1fff is outside range for A Read
-do {TestBench_v2.fdo}
-# ** Warning: (vlib-34) Library already exists at "work".
-# 
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module bram
-# 
-# Top level modules:
-# 	bram
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module bram_dm
-# 
-# Top level modules:
-# 	bram_dm
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module TestBench_v2
-# ** Error: TestBench_v2.v(34): 'busy' already declared in this scope (TestBench_v2).
-# ** Error: C:/modeltech64_10.1c/win64/vlog failed.
-# Error in macro ./TestBench_v2.fdo line 25
-# C:/modeltech64_10.1c/win64/vlog failed.
-#     while executing
-# "vlog  "TestBench_v2.v""
-do {TestBench_v2.fdo}
-# ** Warning: (vlib-34) Library already exists at "work".
-# 
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module bram
-# 
-# Top level modules:
-# 	bram
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module bram_dm
-# 
-# Top level modules:
-# 	bram_dm
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module TestBench_v2
-# 
-# Top level modules:
-# 	TestBench_v2
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module glbl
-# 
-# Top level modules:
-# 	glbl
-# vsim -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip -lib work -voptargs=\"+acc\" -t 1ps work.TestBench_v2 glbl 
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# 
-# ** Warning: TestBench_v2.v(70): (vopt-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 16, found 12.
-# 
-# ** Warning: TestBench_v2.v(70): (vopt-2718) [TFMPC] - Missing connection for port 'dout_ref'.
-# 
-# ** Warning: TestBench_v2.v(70): (vopt-2718) [TFMPC] - Missing connection for port 'addr_ref'.
-# 
-# ** Warning: TestBench_v2.v(70): (vopt-2718) [TFMPC] - Missing connection for port 'we_ref'.
-# 
-# ** Warning: TestBench_v2.v(70): (vopt-2718) [TFMPC] - Missing connection for port 'en_ref'.
-# 
-# Loading work.TestBench_v2(fast)
-# Loading work.bram_dm(fast)
-# Loading work.bram(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_mem_module(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_output_stage(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_softecc_output_reg_stage(fast)
-# Loading work.glbl(fast)
-# .main_pane.wave.interior.cs.body.pw.wf
-# .main_pane.structure.interior.cs.body.struct
-# .main_pane.objects.interior.cs.body.tree
-#  Block Memory Generator CORE Generator module loading initial data...
-#  Block Memory Generator data initialization complete.
-# Block Memory Generator CORE Generator module TestBench_v2.mybram.inst.native_mem_mapped_module.blk_mem_gen_v7_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
-# blk_mem_gen_v7_2 WARNING: Address 1fff is outside range for A Write
-# blk_mem_gen_v7_2 WARNING: Address 1fff is outside range for A Read
-do quick_run.do
-# Loading work.TestBench_v2(fast)
-# Loading work.bram_dm(fast)
-# Loading work.bram(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_mem_module(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_output_stage(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_softecc_output_reg_stage(fast)
-# Loading work.glbl(fast)
-#  Block Memory Generator CORE Generator module loading initial data...
-#  Block Memory Generator data initialization complete.
-# Block Memory Generator CORE Generator module TestBench_v2.mybram.inst.native_mem_mapped_module.blk_mem_gen_v7_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
-# blk_mem_gen_v7_2 WARNING: Address 1fff is outside range for A Write
-# blk_mem_gen_v7_2 WARNING: Address 1fff is outside range for A Read
-do {TestBench_v2.fdo}
-# ** Warning: (vlib-34) Library already exists at "work".
-# 
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module bram
-# 
-# Top level modules:
-# 	bram
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module bram_dm
-# 
-# Top level modules:
-# 	bram_dm
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module TestBench_v2
-# 
-# Top level modules:
-# 	TestBench_v2
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module glbl
-# 
-# Top level modules:
-# 	glbl
-# vsim -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip -lib work -voptargs=\"+acc\" -t 1ps work.TestBench_v2 glbl 
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# 
-# Loading work.TestBench_v2(fast)
-# Loading work.bram_dm(fast)
-# Loading work.bram(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_mem_module(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_output_stage(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_softecc_output_reg_stage(fast)
-# Loading work.glbl(fast)
-# .main_pane.wave.interior.cs.body.pw.wf
-# .main_pane.structure.interior.cs.body.struct
-# .main_pane.objects.interior.cs.body.tree
-#  Block Memory Generator CORE Generator module loading initial data...
-#  Block Memory Generator data initialization complete.
-# Block Memory Generator CORE Generator module TestBench_v2.mybram.inst.native_mem_mapped_module.blk_mem_gen_v7_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
-# blk_mem_gen_v7_2 WARNING: Address 1fff is outside range for A Write
-# blk_mem_gen_v7_2 WARNING: Address 1fff is outside range for A Read
-do quick_run.do
-# Loading work.TestBench_v2(fast)
-# Loading work.bram_dm(fast)
-# Loading work.bram(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_mem_module(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_output_stage(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_softecc_output_reg_stage(fast)
-# Loading work.glbl(fast)
-#  Block Memory Generator CORE Generator module loading initial data...
-#  Block Memory Generator data initialization complete.
-# Block Memory Generator CORE Generator module TestBench_v2.mybram.inst.native_mem_mapped_module.blk_mem_gen_v7_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
-# blk_mem_gen_v7_2 WARNING: Address 1fff is outside range for A Write
-# blk_mem_gen_v7_2 WARNING: Address 1fff is outside range for A Read
-do {TestBench_v2.fdo}
-# ** Warning: (vlib-34) Library already exists at "work".
-# 
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module bram
-# 
-# Top level modules:
-# 	bram
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module bram_dm
-# 
-# Top level modules:
-# 	bram_dm
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module TestBench_v2
-# 
-# Top level modules:
-# 	TestBench_v2
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module glbl
-# 
-# Top level modules:
-# 	glbl
-# vsim -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip -lib work -voptargs=\"+acc\" -t 1ps work.TestBench_v2 glbl 
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# 
-# Loading work.TestBench_v2(fast)
-# Loading work.bram_dm(fast)
-# Loading work.bram(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_mem_module(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_output_stage(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_softecc_output_reg_stage(fast)
-# Loading work.glbl(fast)
-# .main_pane.wave.interior.cs.body.pw.wf
-# .main_pane.structure.interior.cs.body.struct
-# .main_pane.objects.interior.cs.body.tree
-#  Block Memory Generator CORE Generator module loading initial data...
-#  Block Memory Generator data initialization complete.
-# Block Memory Generator CORE Generator module TestBench_v2.mybram.inst.native_mem_mapped_module.blk_mem_gen_v7_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
-# blk_mem_gen_v7_2 WARNING: Address 1fff is outside range for A Write
-# blk_mem_gen_v7_2 WARNING: Address 1fff is outside range for A Read
-do quick_run.do
-# Loading work.TestBench_v2(fast)
-# Loading work.bram_dm(fast)
-# Loading work.bram(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_mem_module(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_output_stage(fast)
-# Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_softecc_output_reg_stage(fast)
-# Loading work.glbl(fast)
-#  Block Memory Generator CORE Generator module loading initial data...
-#  Block Memory Generator data initialization complete.
-# Block Memory Generator CORE Generator module TestBench_v2.mybram.inst.native_mem_mapped_module.blk_mem_gen_v7_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
-# blk_mem_gen_v7_2 WARNING: Address 1fff is outside range for A Write
-# blk_mem_gen_v7_2 WARNING: Address 1fff is outside range for A Read
-vlog -reportprogress 300 -work work C:/Users/tariqmuh/Documents/GitHub/Disp_Map_in_HW/BRAM_Disp_Map/TestBench_v2.v
-# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module TestBench_v2
-# 
-# Top level modules:
-# 	TestBench_v2
+# MACRO ./TestBench_v2.fdo PAUSED at line 31
 vlog -reportprogress 300 -work work C:/Users/tariqmuh/Documents/GitHub/Disp_Map_in_HW/BRAM_Disp_Map/bram_dm.v
 # Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
-# -- Compiling module bram_dm
+# -- Compiling module Disp_Map_Calc
 # 
 # Top level modules:
-# 	bram_dm
+# 	Disp_Map_Calc
+vlog -reportprogress 300 -work work C:/Users/tariqmuh/Documents/GitHub/Disp_Map_in_HW/BRAM_Disp_Map/ipcore_dir/bram.v
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module bram
+# 
+# Top level modules:
+# 	bram
+do quick_run.do
+# ** Error: No Design Loaded!
+# Error in macro ./quick_run.do line 1
+# No Design Loaded!
+#     while executing
+# "restartCmd -f"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval restartCmd $args"
+#     (procedure "restart" line 18)
+#     invoked from within
+# "restart -f"
+do {TestBench_v2.fdo}
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module bram
+# 
+# Top level modules:
+# 	bram
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module Disp_Map_Calc
+# 
+# Top level modules:
+# 	Disp_Map_Calc
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module TestBench_v2
+# 
+# Top level modules:
+# 	TestBench_v2
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module bram
+# 
+# Top level modules:
+# 	bram
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# vsim -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip -lib work -voptargs=\"+acc\" -t 1ps work.TestBench_v2 glbl 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# Loading work.TestBench_v2(fast)
+# Loading work.Disp_Map_Calc(fast)
+# Loading work.bram(fast)
+# Loading work.glbl(fast)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: tariqmuh  Hostname: ADMIN-PC  ProcessID: 121512
+# 
+#           Attempting to use alternate WLF file "./wlftax42v0".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftax42v0
+# 
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Loading work.TestBench_v2(fast)
+# Loading work.Disp_Map_Calc(fast)
+# Loading work.bram(fast)
+# Loading work.glbl(fast)
+# ** Error: (vish-4014) No objects found matching '/TestBench_v2/uut/done'.
+# Executing ONERROR command at macro ./wave.do line 56
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/tariqmuh/Documents/GitHub/Disp_Map_in_HW/BRAM_Disp_Map/wave.do
+vlog -reportprogress 300 -work work C:/Users/tariqmuh/Documents/GitHub/Disp_Map_in_HW/BRAM_Disp_Map/ipcore_dir/bram.v
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module bram
+# 
+# Top level modules:
+# 	bram
 do quick_run.do
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # 
-# ** Warning: C:/Users/tariqmuh/Documents/GitHub/Disp_Map_in_HW/BRAM_Disp_Map/TestBench_v2.v(70): (vopt-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 16, found 12.
-# 
-# ** Warning: C:/Users/tariqmuh/Documents/GitHub/Disp_Map_in_HW/BRAM_Disp_Map/TestBench_v2.v(70): (vopt-2718) [TFMPC] - Missing connection for port 'dout_ref'.
-# 
-# ** Warning: C:/Users/tariqmuh/Documents/GitHub/Disp_Map_in_HW/BRAM_Disp_Map/TestBench_v2.v(70): (vopt-2718) [TFMPC] - Missing connection for port 'addr_ref'.
-# 
-# ** Warning: C:/Users/tariqmuh/Documents/GitHub/Disp_Map_in_HW/BRAM_Disp_Map/TestBench_v2.v(70): (vopt-2718) [TFMPC] - Missing connection for port 'we_ref'.
-# 
-# ** Warning: C:/Users/tariqmuh/Documents/GitHub/Disp_Map_in_HW/BRAM_Disp_Map/TestBench_v2.v(70): (vopt-2718) [TFMPC] - Missing connection for port 'en_ref'.
-# 
 # Loading work.TestBench_v2(fast)
-# Loading work.bram_dm(fast)
+# Loading work.Disp_Map_Calc(fast)
 # Loading work.bram(fast)
 # Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2(fast)
 # Loading xilinxcorelib_ver.BLK_MEM_GEN_V7_2_mem_module(fast)
@@ -752,6 +142,18 @@ do quick_run.do
 # Loading work.glbl(fast)
 #  Block Memory Generator CORE Generator module loading initial data...
 #  Block Memory Generator data initialization complete.
-# Block Memory Generator CORE Generator module TestBench_v2.mybram.inst.native_mem_mapped_module.blk_mem_gen_v7_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+# Block Memory Generator CORE Generator module TestBench_v2.search_bram.inst.native_mem_module.blk_mem_gen_v7_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator CORE Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator CORE Generator module TestBench_v2.ref_bram.inst.native_mem_module.blk_mem_gen_v7_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
 # blk_mem_gen_v7_2 WARNING: Address 1fff is outside range for A Write
 # blk_mem_gen_v7_2 WARNING: Address 1fff is outside range for A Read
+# blk_mem_gen_v7_2 WARNING: Address 1fff is outside range for A Write
+# blk_mem_gen_v7_2 WARNING: Address 1fff is outside range for A Read
+run 1us
+run 1us
+run 100us
+run 1000us
+run 1ms
+run 2ms
+run 5ms

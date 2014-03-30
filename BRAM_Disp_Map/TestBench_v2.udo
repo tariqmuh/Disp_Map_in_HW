@@ -8,3 +8,5 @@
 ## You may want to edit this file to control your simulation.
 ##
 ######################################################################
+
+do quick_run.do

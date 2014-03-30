@@ -29,47 +29,78 @@ module TestBench_v2;
 	reg clkb;
 	reg go;
 	reg [2:0] window;
-	reg busy;
-	wire [31:0] doutb;
 	
-	
-	reg [31:0] dinb;
+	reg busy_ref;
+
+	reg [15:0] dinb;
 
 	// Outputs
-	wire enb;
-	wire [3:0] web;
-	wire [31:0] addrb;
+	reg busy_search;
+	wire en_search;
+	wire [0:0] we_search;
+	wire [12:0] addr_search;
+	wire [15:0] dout_search;
+	
+	
 	wire done;
 	wire [31:0] din_fifo;
 	wire wr_en_fifo;
 	
+	wire en_ref;
+	wire [0:0] we_ref;
+	wire [12:0] addr_ref;	
+	wire [15:0] dout_ref;
+	
 	reg clka;
-	reg [3:0] wea;
-	reg [31:0] addra;
-	wire [31:0] douta;
-	reg [31:0] dina;
+	reg [0:0] wea;
+	reg [12:0] addra;
+	wire [15:0] douta;
+	wire [15:0] douta_ref;
+	reg [15:0] dina;
+	reg [15:0] dina_ref;
 	reg ena;
 	
-	reg [31:0] counter;
-	reg [31:0] read_counter;
+	reg [12:0] counter;
+	reg [12:0] read_counter;
 
 	// Instantiate the Unit Under Test (UUT)
-	bram_dm uut (
+	Disp_Map_Calc 
+	#(
+	.window(3),
+	.NUM_OF_ROWS_IN_BRAM(8),
+//	.ROWS_TO_OPERATE(13),
+	.NUM_OF_WIN(64),
+	.VRES(480),
+	.HRES(640),
+	.BRAM_DATA_WIDTH(16),
+	.BRAM_ADDR_WIDTH(13),
+	.BRAM_WE_WIDTH(1)
+	)
+	
+	uut (
 		.reset(reset), 
-		.clkb(clkb), 
-		.enb(enb), 
-		.web(web), 
-		.addrb(addrb), 
+		.clk(clkb), 
+		.en_search(en_search), 
+		.we_search(we_search), 
+		.addr_search(addr_search),
+		.dout_search(dout_search), 
+		
+		.en_ref(en_ref),
+		.we_ref(we_ref),
+		.addr_ref(addr_ref),
+		.dout_ref(dout_ref),
+		
 		.go(go), 
-		.window(window), 
-		.busy(busy), 
-		.doutb(doutb), 
-		.done(done),
+		.busy_ref(busy_ref), 
+		.busy_search(busy_search), 
+		.finished_row(done),
+		
 		.wr_en_fifo(wr_en_fifo),
 		.din_fifo(din_fifo)
 	);
 
 	initial begin
+	
 		// Initialize Inputs
 		reset = 1;
 		clka = 0;
@@ -77,22 +108,22 @@ module TestBench_v2;
 		addra = 0;
 		dina = 0;
 		clkb = 0;
-		//enb = 0;
-		//addrb = 0;
+		//en_search = 0;
+		//addr_search = 0;
 		dinb = 0;
 		go = 0;
 		window = 3;
-		busy = 1;
+		busy_search = 1;
+		busy_ref = 1;
 
 		// Wait 100 ns for global reset to finish
 		#100;
 		reset = 0;
-	//	enb = 1;
+	//	en_search = 1;
 		ena = 1;
-		busy = 0;
+		busy_search = 0;
+		busy_ref = 0;
 	end
-	
-	//reg [24 : 0] num_pixel_count;
 	
 	always #5 clka = ~clka;
 	always #5 clkb = ~clkb;
@@ -102,31 +133,30 @@ module TestBench_v2;
 		if(reset) begin
 			counter <= #1 0;
 			read_counter <= #1 0;
-			wea <= #1 'b0000;
 			addra <= #1 -1;
-			wea <= #2 'b1111;
+			wea <= #2 'b1;
 		end
 		else begin
-			dina <= #1 1;
+//			dina <= #1 counter;
+			dina <= #1 {$random} % 10;
+			dina_ref <= #1 {$random} % 10;
 			counter <= #1 counter + 1;
-			wea <= #1 15;
+			wea <= #1 1;
 			addra <= #1 counter;
 			
-			if (addra == 252)
-				dina <= #1 'hDEADBEEF;
-			
-			if (counter == 640 * 7) begin
+			if (counter == 640*8) begin
+				wea <= #1 0;
 				ena <= #1 0;
 				go <= #1 1;
 				counter <= #1 counter;
 			end
 			
-//			if (counter == 640 * 7) begin
+//			if (counter == 640*8) begin
 //				wea <= #1 0;
 //				read_counter <= read_counter + 1;
 //				addra <= #1 read_counter;
 ////				addra <= #1 252;
-//				if (read_counter == 640 * 7) begin
+//				if (read_counter == 640*8) begin
 //					ena <= #1 0;
 //					go <= #1 1;
 //					read_counter<= #1 read_counter;
@@ -135,7 +165,7 @@ module TestBench_v2;
 		end
 	end
 	
-bram mybram (
+bram 	search_bram (
   .clka(clka), // input clka
   .ena(ena), // input ena
   .wea(wea), // input [3 : 0] wea
@@ -143,12 +173,26 @@ bram mybram (
   .dina(dina), // input [31 : 0] dina
   .douta(douta), // output [31 : 0] douta
   .clkb(clkb), // input clkb
-  .enb(enb), // input enb
-  .web(web), // input [3 : 0] web
-  .addrb(addrb), // input [31 : 0] addrb
+  .enb(en_search), // input en_search
+  .web(we_search), // input [3 : 0] we_search
+  .addrb(addr_search), // input [31 : 0] addr_search
   .dinb(dinb), // input [31 : 0] dinb
-  .doutb(doutb) // output [31 : 0] doutb
+  .doutb(dout_search) // output [31 : 0] dout_search
 );
-     
+
+bram 	ref_bram(
+  .clka(clka), // input clka
+  .ena(ena), // input ena
+  .wea(wea), // input [3 : 0] wea
+  .addra(addra), // input [31 : 0] addra
+  .dina(dina_ref), // input [31 : 0] dina
+  .douta(douta_ref), // output [31 : 0] douta
+  .clkb(clkb), // input clkb
+  .enb(en_ref), // input en_search
+  .web(we_ref), // input [3 : 0] we_search
+  .addrb(addr_ref), // input [31 : 0] addr_search
+  .dinb(dinb), // input [31 : 0] dinb
+  .doutb(dout_ref) // output [31 : 0] dout_search
+);
 endmodule
 

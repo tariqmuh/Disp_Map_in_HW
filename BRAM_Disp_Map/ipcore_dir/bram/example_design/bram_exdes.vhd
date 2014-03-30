@@ -90,12 +90,12 @@ ENTITY bram_exdes IS
       --Inputs - Port A
     ENA            : IN STD_LOGIC;  --opt port
   
-    WEA            : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
-    ADDRA          : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+    WEA            : IN STD_LOGIC_VECTOR(0 DOWNTO 0);
+    ADDRA          : IN STD_LOGIC_VECTOR(12 DOWNTO 0);
   
-    DINA           : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+    DINA           : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
   
-    DOUTA          : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
+    DOUTA          : OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
   
     CLKA       : IN STD_LOGIC;
 
@@ -103,11 +103,11 @@ ENTITY bram_exdes IS
       --Inputs - Port B
     ENB            : IN STD_LOGIC;  --opt port
   
-    WEB            : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
-    ADDRB          : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+    WEB            : IN STD_LOGIC_VECTOR(0 DOWNTO 0);
+    ADDRB          : IN STD_LOGIC_VECTOR(12 DOWNTO 0);
   
-    DINB           : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
-    DOUTB          : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
+    DINB           : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
+    DOUTB          : OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
     CLKB           : IN STD_LOGIC
 
   );
@@ -129,12 +129,12 @@ ARCHITECTURE xilinx OF bram_exdes IS
       --Port A
     ENA        : IN STD_LOGIC;  --opt port
   
-    WEA        : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
-    ADDRA      : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+    WEA        : IN STD_LOGIC_VECTOR(0 DOWNTO 0);
+    ADDRA      : IN STD_LOGIC_VECTOR(12 DOWNTO 0);
   
-    DINA       : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+    DINA       : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
   
-    DOUTA      : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
+    DOUTA      : OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
 
   
     CLKA       : IN STD_LOGIC;
@@ -143,11 +143,11 @@ ARCHITECTURE xilinx OF bram_exdes IS
       --Port B
     ENB        : IN STD_LOGIC;  --opt port
   
-    WEB        : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
-    ADDRB      : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+    WEB        : IN STD_LOGIC_VECTOR(0 DOWNTO 0);
+    ADDRB      : IN STD_LOGIC_VECTOR(12 DOWNTO 0);
   
-    DINB       : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
-    DOUTB      : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
+    DINB       : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
+    DOUTB      : OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
     CLKB       : IN STD_LOGIC
 
 
